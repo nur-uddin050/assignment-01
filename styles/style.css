@@ -144,7 +144,9 @@ header nav{
 /* yunus-section */
 
 .yunus-section{
+    background-color: rgb(246, 243, 239);
     background-image: url("quote-bg.png");
+    background-repeat: no-repeat;
     border: 2px solid whitesmoke;
     border-radius: 15px;
     padding: 50px 25px;
