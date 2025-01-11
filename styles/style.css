@@ -16,6 +16,16 @@ header nav{
     border: 1px solid rgb(0, 106, 80);
     border-radius: 8px;
 }
+.btn-secondary{
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    background-color: rgb(0, 106, 80);
+    padding: 10px 20px;
+    border: none;
+    margin-top: 20px;
+}
 .digital-btn{
     font-size: 15px;
     font-weight: 600;
@@ -121,4 +131,59 @@ header nav{
     border-radius: 10px;
     background-color: rgb(247, 235, 207);
     padding: 32px;
+}
+
+/* news-section */
+
+.news-section{
+    
+}
+.launcher-satellite{
+    display: flex;
+    margin: 80px 160px;
+    gap: 50px;
+    background-color: rgb(247, 239, 239);
+    padding: 50px;
+    border-radius: 25px;
+}
+.date-time{
+    display: flex;
+    gap: 20px;
+    opacity: 70%;
+}
+.satelite-img{
+    border-radius: 25px;
+}
+.satellite-description{
+    opacity: 70%;
+}
+
+/* donate-section */
+
+.donate-section{
+    margin: 80px 160px;
+    text-align: center;
+}
+
+.card-taka{
+    display: flex;
+    margin: 40px 160px;
+    justify-content: center;
+    gap: 30px;
+}
+.taka{
+    border: 2px solid rgb(247, 239, 239);
+    border-radius: 15px;
+    padding: 40px;
+    
+}
+.bg-200{
+    background-color: rgb(180, 213, 213);
+}
+.input{
+    width: 50%;
+    height: 70px;
+    padding: 5px 40px;
+    text-align: center;
+    border: 1px solid whitesmoke;
 }
