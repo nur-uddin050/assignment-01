@@ -1,0 +1,124 @@
+/* header */
+header nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 24px 160px;
+}
+.bng{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+/* btn */
+.btn-primary{
+    width: 150px;
+    height: 50px;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 8px;
+}
+.digital-btn{
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    background-color: rgb(84, 144, 245);
+    padding: 10px 20px;
+    border: none;
+}
+.green-btn{
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    background-color: rgb(9, 161, 92);
+    padding: 10px 20px;
+    border: none;
+}
+.modern-btn{
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    background-color: rgb(255, 194, 57);
+    padding: 10px 20px;
+    border: none;
+}
+.sign{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(0, 106, 80);
+}
+
+/* banner-section */
+.banner-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 24px 160px;
+    background-color: rgb(198, 228, 214);
+    border-radius: 20px;
+    padding: 80px 100px;
+}
+.banner-bng{
+    font-weight: 600;
+    font-size: 25px;
+    opacity: 60%;
+    
+}
+.banner-title{
+    font-weight: 800;
+    font-size: 60px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.banner-btn{
+    border-radius: 8px;
+    background-color: rgb(0, 106, 80);
+    padding: 15px 30px;
+    border: none;
+}
+.explore{
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+/* vision-section */
+
+.vision-future{
+    margin: 80px 160px;
+}
+.vision-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: rgb(14, 14, 14);
+}
+.vision-description{
+    font-weight: 300;
+    font-size: 20px;
+    color: rgb(14, 14, 14);
+    opacity: 60%;
+}
+.card{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 80px 160px;
+    gap: 30px;
+}
+.card-digital{
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: rgba(84, 144, 245, 0.2);
+    padding: 32px;
+}
+.card-green{
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: rgb(198, 228, 214);
+    padding: 32px;
+}
+.card-modern{
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: rgb(247, 235, 207);
+    padding: 32px;
+}
